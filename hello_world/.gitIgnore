@@ -1,0 +1,10 @@
+# Rust related
+/target/
+Cargo.lock
+
+# IDE/editor specific files (if you're using any)
+/.vscode/
+.idea/
+
+# Miscellaneous
+*.rs.bk
