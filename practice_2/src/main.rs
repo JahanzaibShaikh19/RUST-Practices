@@ -31,6 +31,12 @@ fn main() {
     let x = "String";
     println!("The value of x: {}", x);
 
-    let x = x + "Data Type";
-    println!("The value of x: {}", x);
+    // cannot concat like this
+    // let x = x + "Data Type";
+    // println!("The value of x: {}", x);
+
+    // Constants
+
+    const HOURS_IN_DAY: usize = 24; // Can't change the value of constant
+    println!("Hours In Day: {}", HOURS_IN_DAY);
 }
