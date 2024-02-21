@@ -16,4 +16,11 @@ fn main() {
     let s2 = s1.clone();
 
     println!("s1 = {}, s2 = {}", s1, s2);
+
+    let fr = String::from("Odin crate");
+    get_data(fr);
+}
+
+fn get_data(data: String) {
+    println!("{}", data);
 }
